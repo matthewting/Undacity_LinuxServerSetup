@@ -3,6 +3,7 @@
 # IP Address: 54.213.242.166
 # URL: http://ec2-54-213-242-166.us-west-2.compute.amazonaws.com
 # port for SSH: 2200
+# grader password: P@ssw0rd!123
 # Summary of software installed:
 	1. Flask
 	2. PostgreSQL
