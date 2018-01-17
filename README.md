@@ -22,22 +22,22 @@
 	9. Configure the catalog project to make it able to be enabled in public using flask
 		- renamed the original view.py to __init__.py
 		- updated all the engine from  
-			```
+```
 			engine = create_engine('sqlite:///catalog.db')  
-			```
+```
 		  to
-		  	```
+```
 		  	engine = create_engine("postgresql://catalog:catalog@localhost/catalog")
-			```
+```
 			
 		- Change the application run statement from 
-			```
+```
 			app.run(host='0.0.0.0', port=8000)
-			```
+```
 		  to
-		  	```
+```
 		  	app.run()
-			```
+```
 	10. Configure the PSQL  database to support the catalog project
 	11. Added the new public domain url to my google key 
 # List of third party resources used to complete this project:
